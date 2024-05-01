@@ -1,11 +1,15 @@
 {
-    "name": "kavenegar/php",
+    "name": "a3dmorteza/kavenegar-php",
     "type": "library",
     "description": "A PHP wrapper for Kavenegar's API",
     "keywords": ["kavenegar", "sms", "api"],
-    "homepage": "http://github.com/Kavenegar/kavenegar-php",
+    "homepage": "https://github.com/a3dmorteza/kavenegar-php",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Seyed Morteza Hosseini",
+            "email": "a3dmorteza@gmail.com"
+        },
         {
             "name": "Kavenegar API Team",
             "email": "support@kavenegar.com"
