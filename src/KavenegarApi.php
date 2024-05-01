@@ -19,11 +19,9 @@ class KavenegarApi
     {
         if (!extension_loaded('curl')) {
             die('cURL library is not loaded');
-            exit;
         }
         if (is_null($apiKey)) {
             die('apiKey is empty');
-            exit;
         }
         $this->apiKey = trim($apiKey);
         $this->insecure = $insecure;
@@ -294,4 +292,3 @@ class KavenegarApi
         return $this->execute($path, $params); 
     }
 }
-?>
