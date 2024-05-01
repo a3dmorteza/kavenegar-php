@@ -12,6 +12,9 @@ class KavenegarApi
 {
     const APIPATH = "%s://api.kavenegar.com/v1/%s/%s/%s.json/";
     const VERSION = "1.2.2";
+
+    private $apiKey;
+    private $insecure;
     public function __construct($apiKey,$insecure=false)
     {
         if (!extension_loaded('curl')) {
